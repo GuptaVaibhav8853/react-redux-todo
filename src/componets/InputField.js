@@ -90,10 +90,7 @@ const InputField = ({ addText, text, gender, selected, addTodo, addGender,hobby,
         <td><label>Status:</label></td>
         <td><Select  placeholder={status} value={status} options={options} onChange={(e)=>addStatus(e.value)}/></td>
       </tr>  
-      <tr>
-         <td><label>Action:</label></td>
-         <td><button>Edit</button> <button>Delete</button><br/></td>
-      </tr>        
+              
       </table><br />
       <button type="submit" onSubmit={handleSubmit}>Submit</button>
       </center> 
